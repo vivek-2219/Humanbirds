@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* utility classes */
+
+.btn{
+    font-size: 16px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.btn-primary{
+    color: white;
+    padding: 12px 23px;
+    border: 2px solid #4444ff;
+    border-radius: 10px;
+    background-color: #4444ff;
+}
+
+.btn :hover{
+    background-color: white;
+    color: blue;
+    transition: all 0.5s ease-in-out;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0px 6px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.heading li{
+    margin: 23px;
+}
+
+/* utilitiy classes ending */
+
+.logo img{
+    width: 100vw;
+}
+
+/* container element starts form here */
+
+.container{
+    font-family: 'Roboto', sans-serif;
+}
+
+.upperContent{
+    margin: 34px 30px;
+    padding: 23px;
+}
+
+.upperContent ul{
+    display: flex;
+    align-items: center;
+}
+
+.upperContent ul li{
+    margin: 12px;
+}
+
+.upperContent h1{
+    font-size: 45px;
+}
+
+.upperContent input{
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.upperContent select, .upperContent option{
+    font-size: 16px;
+    padding: 6px 12px;
+    border-radius: 6px;
+}
+
+.jobButtons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.looking, .hiring{
+    text-align: center;
+    font-size: 34px;
+}
+
+.looking p, .hiring p{
+    margin: 23px 0px;
+}
+
+.looking button{
+    width: 45vw;
+    height: 20vw;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background: url('/rec6.png');
+    background-size: cover;
+    color: orange;
+}
+
+.looking button h1{
+    font-size: 56px;
+}
+
+.looking button h2{
+    font-size: 45px;
+}
+
+.hiring button{
+    width: 45vw;
+    height: 20vw;
+    border: 2px solid #4444ff;
+    border-radius: 25px;
+    background: url('/rec7.png');
+    background-size: cover;
+    color: #4444ff;
+}
+
+.hiring button h1{
+    font-size: 56px;
+}
+
+.hiring button h2{
+    font-size: 45px;
+}
+
+.lowerImage img{
+    width: 100vw;
+    margin: 56px 0px;
+}
+
+/* container element completed here */
+
+/* middle content starts from here */
+
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxes li{
+    min-width: 350px;
+    max-width: 400px;
+    padding: 12px;
+    margin: 23px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
+
+.boxes h1, .boxes h4{
+    margin: 8px 0px;
+}
+
+.featuredJobs{
+    margin: 156px;
+}
+
+.featuredJobs section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blocks{
+    margin: 23px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    padding: 23px;
+}
+
+.blocks li{
+    display: flex;
+    align-items: center;
+    padding: 6px;
+}
+
+.blocks span{
+    color: #4444ff;
+}
+
+.blue{
+    background-color: #d9d9ff;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.yellow{
+    background-color: rgb(255, 255, 211);
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.featuredJobButton{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    margin: 45px auto;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards section{
+    border: 2px solid black;
+    width: 400px;
+    margin: 56px 21px;
+    padding: 23px;
+}
+
+.cards section li{
+    margin: 12px 6px;
+}
+
+.cards section li h2{
+    color: #4444ff;
+}
+
+.candidate{
+    display: flex;
+    align-items: center;
+}
+
+.candidate img{
+    width: 89px;
+    height: 89px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0px 12px;
+}
+
+/* middle content completed here */
+
+/* sponsors */
+
+.sponsors ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* sponsors ending */
+
+/* lower content starting */
+
+.lowerContent{
+    margin: 156px 0px;
+}
+
+.firstBox{
+    display: flex;
+    justify-content: center;
+}
+
+.firstBox section{
+    margin: 23px;
+    width: 500px;
+}
+
+.firstBox section img{
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+
+.firstBox section h1{
+    font-size: 34px;
+}
+
+.firstBox section ul li{
+    margin: 34px;
+}
+
+.firstBox section ul li h4{
+    margin: 12px;
+}
+
+.lowerButton{
+    display: flex;
+    justify-content: flex-start;
+    margin: 34px;
+}
+
+.reaches{
+    display: flex;
+    justify-content: space-around;
+    margin: 113px 0px;
+}
+
+.reaches span{
+    text-align: center;
+}
+
+.reaches span h1{
+    font-size: 69px;
+    font-weight: lighter;
+}
+
+.news{
+    background-color: #e8e8ff;
+    padding: 123px 0px;
+}
+
+.articles{
+    display: flex;
+    justify-content: center;
+}
+
+.feed{
+    padding: 12px;
+    background-color: white;
+    margin: 34px 10px;
+}
+
+.feed img{
+    width: 95%;
+    height: 123px;
+    border: 2px solid black;
+    margin: auto;
+}
+
+.feed ul{
+    display: flex;
+    margin: 12px 0px;
+}
+
+.feed ul li{
+    margin: 6px 0px;
+}
+
+.feed a{
+    color: #4444ff;
+    margin: 6px 0px;
+}
+
+/* pre footer starting */
+
+.pre-footer{
+    width: 60vw;
+    margin: auto;
+}
+
+.pre-footer li{
+    margin: 23px;
+    max-width: 450px;
+}
